@@ -19,4 +19,4 @@ Part two includes scripting to generate aws ec2 instances and implement ansible 
 
 # Part 3
 
-Part three provides scripting for use implementing local and remote modules. These modules set up webservers and and VPC respectively.
+Part three provides scripting for use implementing local and remote modules. These modules set up webservers and and VPC respectively using a public github repo I have created.

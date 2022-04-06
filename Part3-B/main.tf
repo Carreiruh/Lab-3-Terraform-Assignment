@@ -11,12 +11,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-module "remote-stack" {
-  source = "github.com:https://github.com/Carreiruh/Lab-3-Terraform-Assignment.git"
-  project_tags =  {
-    Name       = "MC-Test"
-    Owner      = "Mark Carreira"
-    Purpose    = "Testing"
-    CostCenter = "0001"
-  }
+module "set-vpc" {
+  source = "github.com/Carreiruh/TestVPCRepo"
 }
